@@ -1,0 +1,25 @@
+h1 {font: 24px/30px 'Fruktur', cursive;
+    color: red;}
+
+    p {font-size: 16px;
+      font-style: normal;
+      font-weight: bold;
+      font-family: Verdana, sans-serif;}
+
+@media screen and (min-width:0px) and (max-width:640px) {
+  /* CSS code for small screens */
+  h1 {font: 24px/30px 'Fruktur', cursive;
+      color: red;}
+}
+@media screen and (min-width:641px) {
+  /* CSS code for larger screens */
+  h1 {font: 48px/60px 'Fruktur', cursive;
+      color: green;}
+}
+
+#self {
+height: 100px;
+width: 100px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+}
