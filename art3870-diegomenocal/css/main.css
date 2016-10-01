@@ -1,6 +1,22 @@
 * {
-  border:1px solid red;
+  text-align: center;
 }
 
-#greeting {color:red;
+h1 {font-family: 'Fruktur', cursive;
+  font: 24px/30px black;
+  }
+
+p {font-family: 'Architects Daughter', cursive;
+  font: 12/16px black;
+}
+#self {
+  margin: 0 auto;
+ height: 300px;
+ width: 300px;
+ -moz-border-radius: 150px;
+ border-radius: 150px;
+}
+
+#greeting {
+font-family: 'Fruktur', cursive;
 }

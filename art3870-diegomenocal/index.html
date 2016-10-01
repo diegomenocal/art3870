@@ -4,20 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Diego Menocal's Landing Page</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Fruktur" rel="stylesheet">
   </head>
   <body>
 
     <section class="row">
-      <h1 class="columns small-12 large-6">headline</h1>
-      <img src="http://placekitten.com/g/600/800" alt="" class="columns small-12 large-12"/>
+      <img id="self" src="image/sb.jpg" alt="Illustration of myself" class="columns small-12 large-12"/>
+      <h1 class="columns small-12 large-12">Diego Menocal's Landing page</h1>
     </section>
 
     <section>
-      Welcome to page 47. I just wanted to say: <span id="greeting">hello!</span>
+      <p>Hello and <span id="greeting">hello!</span></p>
     </section>
 
     <script type="text/javascript">
@@ -43,12 +44,6 @@
       {
         document.getElementById('greeting').innerHTML = "I'm not sure what time it is!";
       }
-
-/* remove the following in your live script. It is for testing */
-document.write("<br /><br /> The hour is: ")
-document.write( myDate.getHours() );
-
-
 
     </script>
 
