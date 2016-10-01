@@ -10,11 +10,8 @@ p {font-family: 'Architects Daughter', cursive;
   font: 12/16px black;
 }
 #self {
-  margin: 0 auto;
- height: 300px;
- width: 300px;
- -moz-border-radius: 150px;
- border-radius: 150px;
+ -moz-border-radius: 50%;
+ border-radius: 50%;
 }
 
 #greeting {
